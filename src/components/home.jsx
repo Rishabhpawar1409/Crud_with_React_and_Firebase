@@ -81,7 +81,7 @@ function Home() {
 
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <h1>Papa Shango</h1>
       <p>{user.email}</p>
       <input
         value={input}
