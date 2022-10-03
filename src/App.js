@@ -7,8 +7,6 @@ import Home from "./components/home";
 import { UserAuthContextProvider } from "./context/userAuthContext";
 import ProtectedRoute from "./components/protectedRoute";
 
-import { useAutoAnimate } from "@formkit/auto-animate/react";
-
 export default function App() {
   return (
     <UserAuthContextProvider>
